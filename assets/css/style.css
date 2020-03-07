@@ -25,8 +25,6 @@ div {
 }
 
 p {
-  padding: 0;
-  margin: 0;
   font-family: Roboto;
 }
 
@@ -82,16 +80,21 @@ p {
 
 .introduction-container {
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 30vw auto;
   margin-top: 70px;
+}
+
+.introduction-container>div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .img-slideshow {
   width: 30vw;
   height: auto;
 }
-
-
 
 .programming-container {
   display: grid;
@@ -106,4 +109,5 @@ p {
 .programming-items-container>div {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
