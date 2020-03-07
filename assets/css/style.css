@@ -1,73 +1,107 @@
-.thick-border {
-  border-color: #3e4740;
-  border-width: .3em;
-  border-style: solid;
-  border-radius: 50%;
-  
-  }
-
-.centerProfile {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 20em;
-  }
-
-html {
-  height: 100%;
-  overflow: hidden;
-}
-
+html,
 body {
-  color: rgb(253, 249, 200);
-  margin: 0;
   padding: 0;
-  perspective: 1px;
-  transform-style: preserve-3d;
-  height: 100%;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  font-family: 'Nunito', serif;
-  text-shadow: 4px 4px 4px rgb(0, 0, 0);
-}
-
-header {
-  box-sizing: border-box;
-  min-height: 100vh;
-  padding: 25vw 0 5vw;
-  position: relative;
-  transform-style: inherit;
-  width: 100vw;
-  font-weight: normal;
-  letter-spacing: 0.2em;
-  text-align: center;
   margin: 0;
-}
-
-header h1 {
-  margin-top: -100px;
-}
-
-header, header::before {
-  background: 50% 50% / cover;
-}
-
-header::before {
-  bottom: 0;
-  content: "";
-  left: 0;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
-  right: 0;
-  top: 0;
-  display: block;
-  background-image: url(backgrounds.jpg);
-  background-size: cover;
-  transform-origin: center center 0;
-  transform: translateZ(-1px) scale(2);
-  z-index: -1;
-  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+div {
+  font-family: Montserrat;
 }
 
 p {
-  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(/assets/font/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url(/assets/font/Roboto/Roboto-Regular.ttf);
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  width: 100vw;
+  height: 70px;
+  position: fixed;
+  background-color: coral;
+}
+
+.navbar-homepage-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.navbar-homepage {
+  margin: 0px 10px;
+}
+
+.navbar-homepage>a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navbar-items-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px;
+}
+
+.navbar-items {
+  margin: 0px 10px;
+}
+
+.navbar-items>a {
+  color: black;
+  text-decoration: none;
+}
+
+.introduction-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  margin-top: 70px;
+}
+
+.img-slideshow {
+  width: 30vw;
+  height: auto;
+}
+
+
+.programming-container {
+  display: grid;
+  margin: 20px;
+}
+
+.programming-items-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.programming-items-container>div {
+  display: flex;
+  justify-content: center;
 }
