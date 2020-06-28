@@ -6,55 +6,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Earl Pascual">
     <title>Earl Pascual | Portfolio</title>
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="navbar-homepage-container">
-            <div class="navbar-homepage">
-                <a href="#">
-                    <h3>earlstefan.github.io</h3>
-                </a>
-            </div>
+    <div class="navbar navbar-expand-lg nav-bg">
+        <a class="navbar-brand" href="#">
+            <h3 class="m-0">earlstefan.github.io</h3>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Biography</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Collaborate</a>
+                </li>
+            </ul>
         </div>
-        <div class="navbar-items-container">
-            <div class="navbar-items">
-                <a href="#">Projects</a>
-            </div>
-            <div class="navbar-items">
-                <a href="#">Let's Talk!</a>
-            </div>
-        </div>
+
     </div>
 
     <main>
-
-        <section class="introduction-container">
-            <div>
-                <img class="img-slideshow" src="/assets/img/profile_picture.jpg" alt="Person Image.">
-            </div>
-            <div>
-                <h1 class="title">Front-End Developer</h1>
-                <p>Programming Hater. Seriously, I hate it.</p>
-            </div>
-        </section>
-
-        <section class="programming-container">
-            <div class="programming-items-container">
+        <section>
+            <div class="header-container d-flex justify-content-center align-items-center">
                 <div>
-                    <img src="/assets/img/html5-logo.svg" alt="html 5 logo" width="250" height="250">
-                </div>
-                <div>
-                    <img src="/assets/img/css3-logo.svg" alt="html 5 logo" width="250" height="250">
-                </div>
-                <div>
-                    <img src="/assets/img/js-logo.svg" alt="html 5 logo" width="250" height="250">
+                    <h1>I'm Earl</h1>
+                    <p class="mb-4">Web Developer. Traveler. Cook.</p>
+                    <img class="profile-pic" src="/assets/img/profile_picture.jpg" alt="Profile Picture" width="300"
+                        height="300">
                 </div>
             </div>
         </section>
+        <section>
+            <div class="biography-container d-flex justify-content-center align-items-center">
+                <div>
+                    <h1 class="mb-4">BIOGRAPHY</h1>
+                    <p>I profess to myself to become a well known Full Stack Developer. To reach my goal, I must embark
+                        on a journey and learn the ways on how to do <strong><ins>Front End Development</ins></strong>
+                        to
+                        <strong><ins>Back End Development</ins></strong>.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="education-container d-flex justify-content-center align-items-center">
+                <div>
+                    <h1 class="mb-4">EDUCATION</h1>
+                    <ul>
+                        <li><strong> B.S. Information Technology </strong> - Mapua Institute of Technology</li>
+                        <li> <strong>High School Graduate</strong> - Gideon Academy</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="/assets/img/undraw_Graduation_ktn0.svg" alt="Education Photo" width="300" height="300">
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="skill-container d-flex justify-content-center align-items-center">
+                <div>
+                    <img src="/assets/img/undraw_certificate_343v.svg" alt="Education Photo" width="300" height="300">
+                </div>
+                <div>
+                    <h1 class="mb-4">Skills</h1>
+                    <ul class="apple">
+                        <li><strong> B.S. Information Technology </strong> - Mapua Institute of Technology</li>
+                        <li> <strong>High School Graduate</strong> - Gideon Academy</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="collaborate-container">
+                <div>
+                    <h1>COLLABORATED WITH</h1>
+                    <div class="d-flex justify-content-around align-items-center w-100">
+                        <img src="/assets/img/acn.png" alt="Accenture PH" width="400" height="250">
+                        <img src="/assets/img/Labs.png" alt="CloudSwyft" width="450" height="100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="bottom-container">
+                <a href="https://www.linkedin.com/">LinkedIn</a>
+                <a href="https://www.twitter.com/">Twitter</a>
+                <a href="https://www.facebook.com/">Facebook</a>
+            </div>
+        </footer>
 
     </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
