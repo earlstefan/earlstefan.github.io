@@ -77,7 +77,7 @@ ul li {
 }
 
 .apple>li:before {
-  content: '✓';
+  content: '✓ ';
 }
 
 .header-container {
