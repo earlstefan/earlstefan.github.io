@@ -1,6 +1,4 @@
 html,
-
-
 h1,
 h2,
 h3,
@@ -76,8 +74,8 @@ ul li {
   list-style: none;
 }
 
-.apple>li:before {
-  content: '✓ ';
+.apple > li:before {
+  content: "✓ ";
 }
 
 .header-container {
@@ -97,7 +95,7 @@ ul li {
   border-radius: 10px;
 }
 
-.header-container>div {
+.header-container > div {
   width: 30%;
   margin: 20px auto;
 }
@@ -111,7 +109,7 @@ ul li {
   text-align: center;
 }
 
-.biography-container>div {
+.biography-container > div {
   width: 30%;
   margin: 20px auto;
 }
@@ -125,7 +123,7 @@ ul li {
   text-align: center;
 }
 
-.education-container>div {
+.education-container > div {
   width: 30%;
 }
 
@@ -138,7 +136,7 @@ ul li {
   text-align: center;
 }
 
-.skill-container>div {
+.skill-container > div {
   width: 30%;
 }
 
@@ -170,6 +168,14 @@ ul li {
 
   display: inline-block;
   position: relative;
+}
+
+.go-to {
+  color: #092532 !important;
+}
+
+.go-to:hover {
+  text-decoration: underline !important;
 }
 
 .bottom-container a:after {
