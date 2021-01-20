@@ -8,6 +8,9 @@ h6 {
   font-family: Montserrat;
 }
 
+html {
+  scroll-behavior: smooth !important; }
+
 body {
   margin: 0;
   text-align: center;
@@ -74,10 +77,6 @@ ul li {
   list-style: none;
 }
 
-.apple > li:before {
-  content: "✓ ";
-}
-
 .header-container {
   background-color: #092532;
   height: 500px;
@@ -120,7 +119,6 @@ ul li {
   width: 100%;
   padding: 20px;
   color: #092532;
-  text-align: center;
 }
 
 .education-container > div {
@@ -133,16 +131,24 @@ ul li {
   width: 100%;
   padding: 20px;
   color: #092532;
-  text-align: center;
 }
 
 .skill-container > div {
   width: 30%;
 }
 
+.img-pd-5 {
+  padding: 0 0 0 5%;
+}
+
+.transform-none,
+.transform-none:hover {
+  text-transform: none;
+}
+
 .collaborate-container {
   background-color: #89c9b8;
-  height: 350px;
+  height: 300px;
   width: 100%;
   padding: 20px;
   color: #092532;
@@ -189,6 +195,10 @@ ul li {
   background: #092532;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
+}
+
+.f-9 {
+  font-size: 0.8rem;
 }
 
 .bottom-container a:hover:after {

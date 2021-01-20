@@ -3,13 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="author" content="Earl Pascual">
     <title>Earl Pascual | Portfolio</title>
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/bootstrap-4.4.1-dist/css/bootstrap.min.css">
 </head>
 
 <body>
@@ -70,9 +69,6 @@
                 <div>
                     <h1 class="mb-4" id="education">EDUCATION</h1>
                     <ul class="pl-0">
-                        <li class="mb-1"><strong> NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno) </strong>
-                            - Udemy
-                            Course by <em>Maximilian Schwarzmuller</em></li>
                         <li class="mb-1"><strong> The Web Developer Bootcamp </strong> - Udemy Course by <em>Colt
                                 Steele</em>
                         </li>
@@ -82,25 +78,34 @@
                         <li class="mb-1"> <strong>High School Graduate</strong> - <em>Gideon Academy</em></li>
                     </ul>
                 </div>
-                <div>
+                <div class="d-flex justify-content-center">
                     <img src="/assets/img/undraw_Graduation_ktn0.svg" alt="Education Photo" width="300" height="300">
                 </div>
             </div>
         </section>
         <section>
             <div class="skill-container d-flex justify-content-center align-items-center">
-                <div>
+                <div class="img-pd-5">
                     <img src="/assets/img/undraw_certificate_343v.svg" alt="Education Photo" width="300" height="300">
                 </div>
-                <div>
+                <div class="">
                     <h1 class="mb-4" id="skills">SKILLS</h1>
-                    <ul class="apple pl-0">
-                        <li class="mb-1"><strong>HTML</strong></li>
-                        <li class="mb-1"><strong>CSS</strong></li>
-                        <li class="mb-1"><strong>JavaScript</strong></li>
-                        <li class="mb-1"><strong>Bootstrap 4</strong></li>
-                        <li class="mb-1"><strong>AngularJS 1.6x</strong></li>
-                    </ul>
+                    <div class="d-flex">
+                        <ul class="apple pl-0">
+                            <li class="mb-1"><strong>HTML</strong> ✓✓✓</li>
+                            <li class="mb-1"><strong>CSS</strong> ✓✓✓</li>
+                            <li class="mb-1"><strong>JavaScript</strong> ✓✓✓</li>
+                            <li class="mb-1"><strong>Bootstrap 4</strong> ✓✓✓</li>
+                            <li class="mb-1"><strong>AngularJS 1.6x</strong> ✓✓✓</li>
+                        </ul>
+                        <ul class="apple">
+                            <li class="mb-1"><strong>REACT</strong> ✓✓</li>
+                            <li class="mb-1"><strong>ANGULAR</strong> ✓✓</li>
+                            <li class="mb-1"><strong>Express</strong> ✓</li>
+                            <li class="mb-1"><strong>Mongoose</strong> ✓</li>
+                            <li class="mb-1"><strong>SQL</strong> ✓✓</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
@@ -108,15 +113,32 @@
             <div class="education-container d-flex justify-content-center align-items-center">
                 <div>
                     <h1 class="mb-4" id="education">PROJECTS</h1>
-                    <ul class="pl-0">
-                        <li class="mb-1"><strong>Book List using React</strong>
-                            - <a href="https://friendly-joliot-6cefef.netlify.app/">
-                                <em class="go-to">Click Here</em>
-                            </a>
-                        </li>
-                    </ul>
+                    <div class="d-flex">
+                        <ul class="apple pl-0">
+                            <li class="mb-1 mt-3">
+                                <a class="transform-none" href="https://friendly-joliot-6cefef.netlify.app/">
+                                    <span class="go-to">Book List using React</span>
+                                </a>
+                            </li>
+                            <li class="mb-1 mt-3">
+                                <a class="transform-none" href="https://dazzling-galileo-8dae4e.netlify.app/">
+                                    <span class="go-to">OrderStream Landing Page</span>
+                                </a>
+                            </li>
+                            <li class="mb-1 mt-3">
+                                <a class="transform-none" href="https://hardcore-saha-f77bde.netlify.app/">
+                                    <span class="go-to">An HTML5 for a Fashion Blog</span>
+                                </a>
+                            </li>
+                            <li class="mb-1 mt-3">
+                                <a class="transform-none" href="#">
+                                    <span class="go-to">Projects, Projects & Projects!</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
+                <div class="d-flex justify-content-center">
                     <img src="/assets/img/undraw_website_builder_bxki.svg" alt="Website Builder Photo" width="300"
                         height="300">
                 </div>
@@ -135,9 +157,14 @@
         </section>
         <footer>
             <div class="bottom-container">
-                <a href="https://www.linkedin.com/">LinkedIn</a>
-                <a href="https://www.twitter.com/">Twitter</a>
-                <a href="https://www.facebook.com/">Facebook</a>
+                <div class="mt-4">
+                    <a class="mr-4" href="https://www.linkedin.com/">LinkedIn</a>
+                    <a class="mr-4" href="https://www.twitter.com/">Twitter</a>
+                    <a href="https://www.facebook.com/">Facebook</a>
+                </div>
+                <div class="mt-3">
+                    <span class="f-9">2020 Earl Pascual @ earlstefan</span>
+                </div>
             </div>
         </footer>
 
@@ -145,13 +172,11 @@
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-    </script>
+        </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-    </script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-    </script>
+        </script>
+    <script src="/assets/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
